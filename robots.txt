@@ -1,0 +1,19 @@
+# robots.txt for Matthew's Clothing Website
+# Last updated: 2025
+
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Sitemap location
+Sitemap: https://www.matthewsclothing.com/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 10 
